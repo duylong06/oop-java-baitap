@@ -46,20 +46,5 @@ Trong `main`, cả ba object nằm chung `List<Employee>` và được duyệt b
 
 `Order` khai báo field kiểu `PaymentMethod` nên không hề biết bên trong là thẻ tín dụng hay ví điện tử. Đổi phương thức thanh toán mà không sửa một dòng nào trong `Order`.
 
-## Bản đồ khái niệm
 
-```
-Class (bản thiết kế)
-   ↓  new
-Object (vật thật)
-   ↓
-Encapsulation   — private + public method có kiểm tra
-   ↓
-Inheritance     — extends, super, protected
-   ↓
-Polymorphism    — @Override, biến kiểu cha
-   ↓
-Abstraction
-   ↓
-Interface       — implements
-```
+
